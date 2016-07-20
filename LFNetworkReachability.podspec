@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name               = 'LFNetworkReachability'
   s.summary            = 'Reachability'
-  s.version            = '1.0'
+  s.version            = '1.0.1'
   s.license            = { :type => 'Apache License Version 2.0', :file => 'LICENSE' }
   s.authors            = { 'wangxiaoxiang' => 'wangxiaoxiang@youku.com' }
   s.social_media_url   = 'https://github.com/LaiFengiOS/LFNetworkReachability'
