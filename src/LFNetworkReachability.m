@@ -24,14 +24,14 @@ typedef void (^LFNetworkReachabilityStatusBlock)(LFNetworkReachabilityStatus sta
 NSString * LFStringFromNetworkReachabilityStatus(LFNetworkReachabilityStatus status) {
     switch (status) {
         case LFNetworkReachabilityStatusNotReachable:
-            return NSLocalizedStringFromTable(@"Not Reachable", @"LFNetworking", nil);
+            return NSLocalizedStringFromTable(@"Not Reachable", @"LFNetworkingReachability", nil);
         case LFNetworkReachabilityStatusReachableViaWWAN:
-            return NSLocalizedStringFromTable(@"Reachable via WWAN", @"LFNetworking", nil);
+            return NSLocalizedStringFromTable(@"Reachable via WWAN", @"LFNetworkingReachability", nil);
         case LFNetworkReachabilityStatusReachableViaWiFi:
-            return NSLocalizedStringFromTable(@"Reachable via WiFi", @"LFNetworking", nil);
+            return NSLocalizedStringFromTable(@"Reachable via WiFi", @"LFNetworkingReachability", nil);
         case LFNetworkReachabilityStatusUnknown:
         default:
-            return NSLocalizedStringFromTable(@"Unknown", @"LFNetworking", nil);
+            return NSLocalizedStringFromTable(@"Unknown", @"LFNetworkingReachability", nil);
     }
 }
 
