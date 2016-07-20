@@ -7,17 +7,16 @@
 //
 
 #import "LFNetworkReachability.h"
-#import "LFTelephonyNetworkInfo.h"
+
 
 #if !TARGET_OS_WATCH
-
 #import <netinet/in.h>
 #import <netinet6/in6.h>
 #import <arpa/inet.h>
 #import <ifaddrs.h>
 #import <netdb.h>
 
-NSString * const LFNetworkReachabilityDidChangeNotification = @"com.youku.networking.reachability.changeNotification";
+NSString * const LFNetworkReachabilityDidChangeNotification = @"com.youku.laifeng.networking.reachability.changeNotification";
 NSString * const LFNetworkReachabilityChangeStatusKey = @"LFNetworkingReachabilityChangeStatusKey";
 
 typedef void (^LFNetworkReachabilityStatusBlock)(LFNetworkReachabilityStatus status);
