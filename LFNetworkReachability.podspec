@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
-  s.name               = 'LFCategory'
-  s.summary            = 'A collection of LaiFeng’s Category.'
+  s.name               = 'LFNetworkReachability'
+  s.summary            = 'Reachability'
   s.version            = '1.0'
-  s.license            = { :type => 'MIT', :file => 'LICENSE' }
+  s.license            = { :type => 'Apache License Version 2.0', :file => 'LICENSE' }
   s.authors            = { 'wangxiaoxiang' => 'wangxiaoxiang@youku.com' }
   s.social_media_url   = 'https://github.com/LaiFengiOS/LFNetworkReachability'
   s.homepage           = 'https://github.com/LaiFengiOS/LFNetworkReachability'
