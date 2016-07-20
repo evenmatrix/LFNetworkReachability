@@ -16,7 +16,6 @@
 		C0C748A81D3E148B004A06F9 /* LFNetworkReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C748A71D3E148B004A06F9 /* LFNetworkReachability.m */; };
 		C0C748AA1D3E176B004A06F9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C748A91D3E176B004A06F9 /* SystemConfiguration.framework */; };
 		C0C748AC1D3E1773004A06F9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C748AB1D3E1773004A06F9 /* CoreTelephony.framework */; };
-		C0C748AF1D3E1947004A06F9 /* LFTelephonyNetworkInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C748AE1D3E1947004A06F9 /* LFTelephonyNetworkInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,8 +33,6 @@
 		C0C748A71D3E148B004A06F9 /* LFNetworkReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFNetworkReachability.m; sourceTree = "<group>"; };
 		C0C748A91D3E176B004A06F9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		C0C748AB1D3E1773004A06F9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		C0C748AD1D3E1947004A06F9 /* LFTelephonyNetworkInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFTelephonyNetworkInfo.h; sourceTree = "<group>"; };
-		C0C748AE1D3E1947004A06F9 /* LFTelephonyNetworkInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFTelephonyNetworkInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +96,6 @@
 			children = (
 				C0C748A61D3E148B004A06F9 /* LFNetworkReachability.h */,
 				C0C748A71D3E148B004A06F9 /* LFNetworkReachability.m */,
-				C0C748AD1D3E1947004A06F9 /* LFTelephonyNetworkInfo.h */,
-				C0C748AE1D3E1947004A06F9 /* LFTelephonyNetworkInfo.m */,
 			);
 			name = src;
 			path = ../../../src;
@@ -180,7 +175,6 @@
 				C0C7488F1D3E143B004A06F9 /* AppDelegate.m in Sources */,
 				C0C7488C1D3E143B004A06F9 /* main.m in Sources */,
 				C0C748A81D3E148B004A06F9 /* LFNetworkReachability.m in Sources */,
-				C0C748AF1D3E1947004A06F9 /* LFTelephonyNetworkInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +325,7 @@
 				C0C748A01D3E143B004A06F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

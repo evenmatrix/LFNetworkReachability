@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "LFNetworkReachability.h"
-#import "LFTelephonyNetworkInfo.h"
 
 @interface ViewController ()
 
@@ -34,8 +33,6 @@
                                                  name:LFNetworkReachabilityDidChangeNotification
                                                object:nil];
     [[LFNetworkReachability sharedReachability] startMonitoring];
-    
-    [LFTelephonyNetworkInfo currentInfo];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
