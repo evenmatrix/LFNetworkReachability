@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "LFNetworkReachability.h"
+#import <LFNetworkReachability/LFNetworkReachability.h>
 
 @interface ViewController ()
 
@@ -23,7 +23,7 @@
 }
 
 - (void)_networkingChange:(NSNotification *)notification {
-//    NSLog(@"%@",notification.userInfo);
+    NSLog(@"%@",notification.userInfo);
 }
 
 - (void)viewDidLoad {
