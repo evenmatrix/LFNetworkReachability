@@ -1,10 +1,20 @@
 //
 //  LFNetworkReachability.h
-//  LaiFeng
+//  LFNetworkReachability
 //
-//  Created by wangxiaoxiang on 16/6/15.
-//  Copyright © 2016年 live Interactive. All rights reserved.
+//  Created by wangxiaoxiang on 16/8/17.
+//  Copyright © 2016年 wangxiaoxiang. All rights reserved.
 //
+
+#import <UIKit/UIKit.h>
+
+//! Project version number for LFNetworkReachability.
+FOUNDATION_EXPORT double LFNetworkReachabilityVersionNumber;
+
+//! Project version string for LFNetworkReachability.
+FOUNDATION_EXPORT const unsigned char LFNetworkReachabilityVersionString[];
+
+// In this header, you should import all the public headers of your framework using statements like #import <LFNetworkReachability/PublicHeader.h>
 
 #import <Foundation/Foundation.h>
 #if !TARGET_OS_WATCH
@@ -20,7 +30,7 @@ typedef NS_ENUM(NSInteger, LFNetworkReachabilityStatus) {
     LFNetworkReachabilityStatusReachableViaWiFi = 2,
 };
 
-FOUNDATION_EXPORT NSString * const LFNetworkReachabilityDidChangeNotification; 
+FOUNDATION_EXPORT NSString * const LFNetworkReachabilityDidChangeNotification;
 FOUNDATION_EXPORT NSString * const LFNetworkReachabilityChangeStatusKey;
 
 ///--------------------

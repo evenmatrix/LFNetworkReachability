@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C09486AC1D643DB200748C0B /* LFNetworkReachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09486A91D643DA300748C0B /* LFNetworkReachability.framework */; };
 		C0C7488C1D3E143B004A06F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C7488B1D3E143B004A06F9 /* main.m */; };
 		C0C7488F1D3E143B004A06F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C7488E1D3E143B004A06F9 /* AppDelegate.m */; };
 		C0C748921D3E143B004A06F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C748911D3E143B004A06F9 /* ViewController.m */; };
 		C0C748951D3E143B004A06F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0C748931D3E143B004A06F9 /* Main.storyboard */; };
 		C0C748971D3E143B004A06F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0C748961D3E143B004A06F9 /* Assets.xcassets */; };
 		C0C7489A1D3E143B004A06F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0C748981D3E143B004A06F9 /* LaunchScreen.storyboard */; };
-		C0C748A81D3E148B004A06F9 /* LFNetworkReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C748A71D3E148B004A06F9 /* LFNetworkReachability.m */; };
 		C0C748AA1D3E176B004A06F9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C748A91D3E176B004A06F9 /* SystemConfiguration.framework */; };
 		C0C748AC1D3E1773004A06F9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C748AB1D3E1773004A06F9 /* CoreTelephony.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C09486A81D643DA300748C0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C09486A31D643DA300748C0B /* LFNetworkReachability.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C094868F1D643B7C00748C0B;
+			remoteInfo = LFNetworkReachability;
+		};
+		C09486AA1D643DAC00748C0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C09486A31D643DA300748C0B /* LFNetworkReachability.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C094868E1D643B7C00748C0B;
+			remoteInfo = LFNetworkReachability;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		C09486A31D643DA300748C0B /* LFNetworkReachability.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LFNetworkReachability.xcodeproj; path = ../../LFNetworkReachability/LFNetworkReachability.xcodeproj; sourceTree = "<group>"; };
 		C0C748871D3E143B004A06F9 /* Demo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0C7488B1D3E143B004A06F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C0C7488D1D3E143B004A06F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,8 +47,6 @@
 		C0C748961D3E143B004A06F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0C748991D3E143B004A06F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0C7489B1D3E143B004A06F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C0C748A61D3E148B004A06F9 /* LFNetworkReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFNetworkReachability.h; sourceTree = "<group>"; };
-		C0C748A71D3E148B004A06F9 /* LFNetworkReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFNetworkReachability.m; sourceTree = "<group>"; };
 		C0C748A91D3E176B004A06F9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		C0C748AB1D3E1773004A06F9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -40,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C09486AC1D643DB200748C0B /* LFNetworkReachability.framework in Frameworks */,
 				C0C748AC1D3E1773004A06F9 /* CoreTelephony.framework in Frameworks */,
 				C0C748AA1D3E176B004A06F9 /* SystemConfiguration.framework in Frameworks */,
 			);
@@ -48,9 +65,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C09486A41D643DA300748C0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C09486A91D643DA300748C0B /* LFNetworkReachability.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		C0C7487E1D3E143B004A06F9 = {
 			isa = PBXGroup;
 			children = (
+				C09486A31D643DA300748C0B /* LFNetworkReachability.xcodeproj */,
 				C0C748AB1D3E1773004A06F9 /* CoreTelephony.framework */,
 				C0C748A91D3E176B004A06F9 /* SystemConfiguration.framework */,
 				C0C748891D3E143B004A06F9 /* Demo1 */,
@@ -69,7 +95,6 @@
 		C0C748891D3E143B004A06F9 /* Demo1 */ = {
 			isa = PBXGroup;
 			children = (
-				C0C748A51D3E148B004A06F9 /* src */,
 				C0C7488D1D3E143B004A06F9 /* AppDelegate.h */,
 				C0C7488E1D3E143B004A06F9 /* AppDelegate.m */,
 				C0C748901D3E143B004A06F9 /* ViewController.h */,
@@ -91,16 +116,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C0C748A51D3E148B004A06F9 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				C0C748A61D3E148B004A06F9 /* LFNetworkReachability.h */,
-				C0C748A71D3E148B004A06F9 /* LFNetworkReachability.m */,
-			);
-			name = src;
-			path = ../../../src;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -115,6 +130,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				C09486AB1D643DAC00748C0B /* PBXTargetDependency */,
 			);
 			name = Demo1;
 			productName = Demo1;
@@ -146,12 +162,28 @@
 			mainGroup = C0C7487E1D3E143B004A06F9;
 			productRefGroup = C0C748881D3E143B004A06F9 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C09486A41D643DA300748C0B /* Products */;
+					ProjectRef = C09486A31D643DA300748C0B /* LFNetworkReachability.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C0C748861D3E143B004A06F9 /* Demo1 */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C09486A91D643DA300748C0B /* LFNetworkReachability.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = LFNetworkReachability.framework;
+			remoteRef = C09486A81D643DA300748C0B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C0C748851D3E143B004A06F9 /* Resources */ = {
@@ -174,11 +206,18 @@
 				C0C748921D3E143B004A06F9 /* ViewController.m in Sources */,
 				C0C7488F1D3E143B004A06F9 /* AppDelegate.m in Sources */,
 				C0C7488C1D3E143B004A06F9 /* main.m in Sources */,
-				C0C748A81D3E148B004A06F9 /* LFNetworkReachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C09486AB1D643DAC00748C0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LFNetworkReachability;
+			targetProxy = C09486AA1D643DAC00748C0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C0C748931D3E143B004A06F9 /* Main.storyboard */ = {
@@ -237,7 +276,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -276,7 +315,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
