@@ -1,0 +1,6 @@
+framework module LFNetworkReachability {
+  umbrella header "LFNetworkReachability.h"
+
+  export *
+  module * { export * }
+}
