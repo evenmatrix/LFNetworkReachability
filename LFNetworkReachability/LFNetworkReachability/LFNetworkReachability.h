@@ -6,7 +6,16 @@
 //  Copyright © 2016年 wangxiaoxiang. All rights reserved.
 //
 
+#if TARGET_OS_IPHONE
 #import <UIKit/UIKit.h>
+#elif TARGET_OS_MAC
+#import <Cocoa/Cocoa.h>
+#endif
+
+#import <Foundation/Foundation.h>
+
+#if !TARGET_OS_WATCH
+#import <SystemConfiguration/SystemConfiguration.h>
 
 //! Project version number for LFNetworkReachability.
 FOUNDATION_EXPORT double LFNetworkReachabilityVersionNumber;
@@ -15,12 +24,6 @@ FOUNDATION_EXPORT double LFNetworkReachabilityVersionNumber;
 FOUNDATION_EXPORT const unsigned char LFNetworkReachabilityVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <LFNetworkReachability/PublicHeader.h>
-
-#import <Foundation/Foundation.h>
-#if !TARGET_OS_WATCH
-#import <SystemConfiguration/SystemConfiguration.h>
-
-
 
 NS_ASSUME_NONNULL_BEGIN
 typedef NS_ENUM(NSInteger, LFNetworkReachabilityStatus) {
