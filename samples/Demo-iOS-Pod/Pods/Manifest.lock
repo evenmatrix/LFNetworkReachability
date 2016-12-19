@@ -1,0 +1,16 @@
+PODS:
+  - LFNetworkReachability (1.1.0)
+
+DEPENDENCIES:
+  - LFNetworkReachability (from `../../.`)
+
+EXTERNAL SOURCES:
+  LFNetworkReachability:
+    :path: "../../."
+
+SPEC CHECKSUMS:
+  LFNetworkReachability: 350e24d485c5b455912eb9dd5bb08ef9d1e325c9
+
+PODFILE CHECKSUM: 630472883f3374b38a9075a6efe789675ba59e9a
+
+COCOAPODS: 1.1.1
